@@ -2,8 +2,18 @@ body{
     background-color: rgb(252, 251, 251);
     font-family: 'Inter', sans-serif;
 }
+p{
+    color: grey ;
+}
+.custom-button{
+    border-color: #667080;
+    background-color: #667080;
+    color: white;
+}
+
+
+
 .Menu{
-    background-color: white;
     list-style: none;
     margin: 20px;
     text-align: start;
@@ -13,8 +23,7 @@ body{
     text-align:start
 }
 .Menu li a{
-    padding: 30px;
-    margin: 20px;
+    margin: 10px;
     color: grey;
     text-decoration: none;
     display: inline-block;
@@ -36,21 +45,13 @@ body{
     font-family: 'Inter', sans-serif;
 }
 .Menu{
-    background-color: white;
-    list-style: none;
-    margin: 20px;
     text-align: start;
 }
-.Menu li{
-    display: inline-block;
-    text-align:start
-}
+
 .Menu li a{
-    padding: 30px;
-    margin: 20px;
     color: grey;
     text-decoration: none;
-    display: inline-block;
+    font-size: 1.5rem;
 }
 .Menu li a:hover{
     color: olivedrab;
@@ -69,29 +70,10 @@ h2{
     color: olivedrab
 }
 body{
-    background-color: rgb(252, 251, 251);
+    /*background-color: rgb(252, 251, 251);*/
     font-family: 'Inter', sans-serif;
 }
-.Menu{
-    background-color: white;
-    list-style: none;
-    margin: 20px;
-    text-align: start;
-}
-.Menu li{
-    display: inline-block;
-    text-align:start
-}
-.Menu li a{
-    padding: 30px;
-    margin: 20px;
-    color: grey;
-    text-decoration: none;
-    display: inline-block;
-}
-.Menu li a:hover{
-    color: olivedrab;
-}
+
 h3{
     margin: 70px;
     color: grey;
@@ -158,8 +140,5 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
-    background-color: black;
-    width: 600px;
-    height: 400px;
     padding: 0.5rem;
 }
