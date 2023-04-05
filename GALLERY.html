@@ -1,47 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/estilo.css" />
     <title>COLDPLAY</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="Menu">
-                <h3> 
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">THE BAND</a></li>
-                    <li><a href="./pages/LISTEN TO OUR MUSIC.html">LISTEN</a></li>
-                    <li><a href="#">TOUR DATES</a></li>
-                    <li><a href="/pages/GALLERY.html">GALLERY</a></li> 
-                </h3>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary Menu">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            style="display: flex; justify-content: space-around; width: 100%"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="THEBAND.html"
+                  >THE BAND</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="LISTEN_TO_OUR_MUSIC.html">LISTEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="TOURDATES.html">TOUR DATES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="GALLERY.html">GALLERY</a>
+              </li>
             </ul>
-        </nav>
-        <section class="inline">
-            <h2>
-                GALLERY
-            </h2>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./Img/icons/youtube.png"
+                    alt="youtube"
+                    width="30"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./Img/icons/instagram.png"
+                    alt="instagram"
+                    width="30"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./Img/icons/soundcloud.png"
+                    alt="soundclud"
+                    width="30"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./Img/icons/facebook.png"
+                    alt="facebook"
+                    width="30"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img
+                    src="./Img/icons/spotify.png"
+                    alt="spotify"
+                    width="30"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><img src="./Img/icons/apple.png" alt="apple" width="30" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-        </section>
-    </header>
-</body>
-<main>
-    <img class="imagen1" src="./Img/concert 1.png" width="600" alt="Chris">
-    <img class="imagen3" src="./Img/coldplay 2da integrantews 2.png" width="600" alt="integrantes">
-    <img class="imagen2" src="./Img/integrantes coldplay 1.png" width="600" alt=integrantesDeLaBanda">
-    <img class="imagen4" src="./Img/chris concert 1.png" width="600" alt="soloChris">
-</main>
-<footer>
-    <section class="inline">
-        <h5>
-            2023 by Lucia Panaino
-        </h5>
-    </section>
+    <main>
+      <div class="container-fluid">
+        <div class="row justify-content-center" style="height: 100%">
+          <div class="col-md-6 col-xs-12" style="margin: auto 0px">
+            <img
+              class="imagen1"
+              src="./Img/concert 1.png"
+              width="600"
+              alt="Chris"
+            />
+            <!-- qui van los textos -->
+          </div>
+          <div class="col-md-6 col-xs-12" style="margin: auto 0px">
+            <!-- qui van los textos -->
+            <img
+              class="imagen3"
+              src="./Img/coldplay 2da integrantews 2.png"
+              width="600"
+              alt="integrantes"
+            />
+          </div>
+          <div class="col-md-6 col-xs-12" style="margin: auto 0px">
+            <!-- qui van los textos -->
+            <img class="imagen2" src="./Img/integrantes coldplay 1.png"
+            width="600" alt=integrantesDeLaBanda">
+          </div>
+          <div class="col-md-6 col-xs-12" style="margin: auto 0px">
+            <!-- qui van los textos -->
+            <img
+              class="imagen4"
+              src="./Img/chris concert 1.png"
+              width="600"
+              alt="soloChris"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row" style="height: 10px; margin: 100px 0px">
+        <div class="col-md-12">
+          <hr class="hr-separator" />
+        </div>
+      </div>
+      <div class="row justify-content-center align-item" style="height: 100%">
+        <div class="col-md-6 col-xs-12">
+          <!-- aqui van el input y el boton -->
+          <div style="display: flex; flex-direction: column">
+            <p class="mb-4 gren-color">Subscribe for Updates</p>
+            <form class="row g-3">
+              <div class="row mb-2">
+                <div class="col-10">
+                  <label for="email1" class="visually-hidden">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email1"
+                    placeholder="Enter your email"
+                  />
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-10 d-grid gap-2">
+                  <button type="submit" class="btn btn-secondary mb-3 green-bg">
+                    Subscribe Now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12" style="margin: auto 0px">
+          <!-- aqui van los textos -->
+          <p class="text-center gren-color">Management & Booking</p>
+          <p class="text-center">
+            Email: info@coldplay.com | Phone: 123-456-7890
+          </p>
+        </div>
+      </div>
+    </main>
 
-</footer>
+    <footer>
+      <section class="inline">
+        <h5>2023 by Lucia Panaino</h5>
+      </section>
+    </footer>
+  </body>
+</html>
